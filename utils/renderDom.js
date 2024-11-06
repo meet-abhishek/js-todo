@@ -1,6 +1,6 @@
 import { editTask, toggleTaskCompletion, deleteTask } from "./taskMethods";
 import { saveTask } from "./localStorage";
-import tasks from "./task";
+import { tasks } from "./task";
 
 function renderTasks() {
   const taskList = document.getElementById("task-list");
