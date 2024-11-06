@@ -1,6 +1,6 @@
 // taskMethods.js
-import { tasks } from "./task";
-import { saveTask } from "./localStorage";
+import { tasks } from "./task.js";
+import { saveTask } from "./localStorage.js";
 
 function addTask(renderTasks) {
   let task = document.getElementById("task-input").value.trim();

@@ -1,12 +1,12 @@
 // app.js
-import { saveTask, loadTasks } from "./utils/localStorage";
+import { saveTask, loadTasks } from "./utils/localStorage.js";
 import {
   addTask,
   toggleTaskCompletion,
   deleteTask,
   editTask,
-} from "./utils/taskMethods";
-import { renderTasks } from "./utils/renderDom";
+} from "./utils/taskMethods.js";
+import { renderTasks } from "./utils/renderDom.js";
 
 document
   .getElementById("add-task")
