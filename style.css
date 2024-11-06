@@ -168,3 +168,9 @@ body {
     background-color: #5850ec;
     border-radius: 10px;
 }
+
+li.completed {
+    text-decoration: line-through;
+    font-weight: bolder;
+    color: #ff0000;
+}
