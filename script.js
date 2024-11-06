@@ -34,7 +34,7 @@ document.getElementById("email").addEventListener('keydown', function(event) {
 
 function userLoginRegister() {
   const email = document.getElementById('email').value.trim();
-  email.innerHtml = '';
+  email.textContent = '';
   if (!email){
     alert('Enter your email');
     return;
