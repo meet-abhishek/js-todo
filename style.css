@@ -138,7 +138,7 @@ body {
 }
 
 .task-list li:hover {
-    transform: scaleY(1.02);
+    transform: scale(1.02);
 }
 
 .task-list li span {
@@ -159,7 +159,6 @@ body {
     color: #ff4b4b;
 }
 
-/*Scrollbar Styling*/
 .task-list::-webkit-scrollbar {
     width: 6px;
 }
