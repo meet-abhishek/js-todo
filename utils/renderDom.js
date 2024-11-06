@@ -43,3 +43,5 @@ function renderTasks() {
   });
   saveTask();
 }
+
+export { renderTasks };
