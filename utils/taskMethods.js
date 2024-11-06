@@ -1,5 +1,5 @@
 // taskMethods.js
-import { tasks } from "./task.js";
+import tasks from "./task.js";
 import { saveTask } from "./localStorage.js";
 
 function addTask(renderTasks) {
