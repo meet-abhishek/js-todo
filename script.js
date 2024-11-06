@@ -1,4 +1,3 @@
-// app.js
 import { saveTask, loadTasks } from "./utils/localStorage.js";
 import {
   addTask,
